@@ -3,18 +3,18 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    src: url('../shop/fonts/poppins-v15-latin-regular.eot');
+    src: url('fonts/poppins-v15-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local(''),
-        url('../shop/fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../shop/fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+        url('fonts/poppins-v15-latin-regular.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-regular.woff') format('woff'),
+        url('fonts/poppins-v15-latin-regular.woff') format('woff'),
         /* Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-regular.ttf') format('truetype'),
+        url('fonts/poppins-v15-latin-regular.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../shop/fonts/poppins-v15-latin-regular.svg#Poppins') format('svg');
+        url('fonts/poppins-v15-latin-regular.svg#Poppins') format('svg');
     /* Legacy iOS */
 }
 
@@ -23,18 +23,18 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    src: url('../shop/fonts/poppins-v15-latin-500.eot');
+    src: url('fonts/poppins-v15-latin-500.eot');
     /* IE9 Compat Modes */
     src: local(''),
-        url('../shop/fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'),
+        url('fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../shop/fonts/poppins-v15-latin-500.woff2') format('woff2'),
+        url('fonts/poppins-v15-latin-500.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-500.woff') format('woff'),
+        url('fonts/poppins-v15-latin-500.woff') format('woff'),
         /* Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-500.ttf') format('truetype'),
+        url('fonts/poppins-v15-latin-500.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../shop/fonts/poppins-v15-latin-500.svg#Poppins') format('svg');
+        url('fonts/poppins-v15-latin-500.svg#Poppins') format('svg');
     /* Legacy iOS */
 }
 
@@ -43,18 +43,18 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    src: url('../shop/fonts/poppins-v15-latin-600.eot');
+    src: url('fonts/poppins-v15-latin-600.eot');
     /* IE9 Compat Modes */
     src: local(''),
-        url('../shop/fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'),
+        url('fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../shop/fonts/poppins-v15-latin-600.woff2') format('woff2'),
+        url('fonts/poppins-v15-latin-600.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-600.woff') format('woff'),
+        url('fonts/poppins-v15-latin-600.woff') format('woff'),
         /* Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-600.ttf') format('truetype'),
+        url('fonts/poppins-v15-latin-600.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../shop/fonts/poppins-v15-latin-600.svg#Poppins') format('svg');
+        url('fonts/poppins-v15-latin-600.svg#Poppins') format('svg');
     /* Legacy iOS */
 }
 
@@ -63,18 +63,18 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    src: url('../shop/fonts/poppins-v15-latin-700.eot');
+    src: url('fonts/poppins-v15-latin-700.eot');
     /* IE9 Compat Modes */
     src: local(''),
-        url('../shop/fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'),
+        url('fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../shop/fonts/poppins-v15-latin-700.woff2') format('woff2'),
+        url('fonts/poppins-v15-latin-700.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-700.woff') format('woff'),
+        url('fonts/poppins-v15-latin-700.woff') format('woff'),
         /* Modern Browsers */
-        url('../shop/fonts/poppins-v15-latin-700.ttf') format('truetype'),
+        url('fonts/poppins-v15-latin-700.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../shop/fonts/poppins-v15-latin-700.svg#Poppins') format('svg');
+        url('fonts/poppins-v15-latin-700.svg#Poppins') format('svg');
     /* Legacy iOS */
 }
 
@@ -95,7 +95,7 @@ body{
 
 .header {
     background-color: rgb(255, 122, 122);
-    background-image: url(../shop/images/bg-intro-desktop.png);
+    background-image: url(images/bg-intro-desktop.png);
     height: 100%;
 }
 
@@ -197,7 +197,7 @@ body{
     text-transform: capitalize;
     color: #8A898F;
     padding-left: 30px;
-    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+    background: url(images/icon-error.svg) no-repeat 95% 50% none;
 }
 
 .last-name {
@@ -214,7 +214,7 @@ body{
     text-transform: capitalize;
     color: #8A898F;
     padding-left: 30px;
-    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+    background: url(images/icon-error.svg) no-repeat 95% 50% none;
 }
 
 .email {
@@ -231,7 +231,7 @@ body{
     text-transform: capitalize;
     color: #8A898F;
     padding-left: 30px;
-    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+    background: url(images/icon-error.svg) no-repeat 95% 50% none;
 }
 
 .password {
@@ -248,7 +248,7 @@ body{
     text-transform: capitalize;
     color: #8A898F;
     padding-left: 30px;
-    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+    background: url(images/icon-error.svg) no-repeat 95% 50% none;
 }
 
 .claim__your {
@@ -320,7 +320,7 @@ input:focus {
 .error-icon {
     color: #FF7978;
     border: 1px solid #FF7978;
-    background: url(../shop/images/icon-error.svg) no-repeat 95% 50%;
+    background: url(images/icon-error.svg) no-repeat 95% 50%;
 }
 
 .error {
