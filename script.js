@@ -11,7 +11,7 @@ function submitForm() {
     validateRequired(inputEmail);
     if (validatorValue(inputEmail)) {
         validateEmail(inputEmail);
-    } else{
+    } else {
         hideEmailError(inputEmail);
     }
 }

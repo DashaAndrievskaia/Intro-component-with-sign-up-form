@@ -83,8 +83,8 @@ html {
     height: 100%;
 }
 
-body{
- height: 100%;
+body {
+    height: 100%;
 }
 
 *,
@@ -326,7 +326,7 @@ input:focus {
 .error {
     display: none;
     font-family: Poppins;
-    font-style: italic;    
+    font-style: italic;
     font-weight: 500;
     font-size: 11px;
     line-height: 150.1%;
@@ -336,7 +336,7 @@ input:focus {
     padding-top: 10px;
 }
 
-.button-claim{
+.button-claim {
     display: grid;
     justify-content: center;
     row-gap: 20px;
