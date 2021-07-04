@@ -1,0 +1,343 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../shop/fonts/poppins-v15-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../shop/fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../shop/fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../shop/fonts/poppins-v15-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../shop/fonts/poppins-v15-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../shop/fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../shop/fonts/poppins-v15-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../shop/fonts/poppins-v15-latin-500.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../shop/fonts/poppins-v15-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../shop/fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../shop/fonts/poppins-v15-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../shop/fonts/poppins-v15-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../shop/fonts/poppins-v15-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../shop/fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../shop/fonts/poppins-v15-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../shop/fonts/poppins-v15-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../shop/fonts/poppins-v15-latin-700.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+ height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+.header {
+    background-color: rgb(255, 122, 122);
+    background-image: url(../shop/images/bg-intro-desktop.png);
+    height: 100%;
+}
+
+.header-text {
+    display: grid;
+    align-content: start;
+    margin-top: 300px;
+    row-gap: 30px;
+}
+
+.header-form {
+    display: grid;
+    row-gap: 25px;
+    align-content: center;
+}
+
+.wrapper {
+    height: 100%;
+    width: 1110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.learn_title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    letter-spacing: 0.005em;
+    color: #FFFDFF;
+
+}
+
+.subtitle {
+    width: 430px;
+}
+
+.learn_subtitle {
+    height: 72px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    color: #FFFDFF;
+    line-height: 150%;
+
+}
+
+.sentense {
+    height: 60px;
+    width: 540px;
+    background: #5D54A3;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFDFF;
+}
+
+.try-it {
+    width: 331px;
+    height: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150.1%;
+    letter-spacing: 0.005em;
+    color: #FEFDFF;
+}
+
+.form-wrap {
+    width: 540px;
+    height: 562px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.name {
+    width: 460px;
+    height: 55px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8A898F;
+    padding-left: 30px;
+    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+}
+
+.last-name {
+    width: 460px;
+    height: 55px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8A898F;
+    padding-left: 30px;
+    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+}
+
+.email {
+    width: 460px;
+    height: 55px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8A898F;
+    padding-left: 30px;
+    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+}
+
+.password {
+    width: 460px;
+    height: 55px;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #8A898F;
+    padding-left: 30px;
+    background: url(../shop/images/icon-error.svg) no-repeat 95% 50% none;
+}
+
+.claim__your {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFDFF;
+    width: 460px;
+    height: 52px;
+    background: #37CC8A;
+    box-shadow: 0px 4px 1px #5ABB91;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-input {
+    display: grid;
+    grid-auto-rows: 96px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.text-footer {
+    width: 367px;
+    height: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #BEBCC9;
+    margin: auto;
+}
+
+.services-text {
+    color: #FF7978;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus {
+    width: 460px;
+    height: 55px;
+    border: 1px solid #5D54A3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #2B2A2F;
+    padding-left: 30px;
+}
+
+.claim__your:focus,
+.claim__your:active,
+.claim__your:hover {
+    background: #74E4B4;
+    box-shadow: 0px 4px 1px #5ABB91;
+}
+
+.error-icon {
+    color: #FF7978;
+    border: 1px solid #FF7978;
+    background: url(../shop/images/icon-error.svg) no-repeat 95% 50%;
+}
+
+.error {
+    display: none;
+    font-family: Poppins;
+    font-style: italic;    
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150.1%;
+    letter-spacing: 0.005em;
+    color: #FF7978;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.button-claim{
+    display: grid;
+    justify-content: center;
+    row-gap: 20px;
+}
